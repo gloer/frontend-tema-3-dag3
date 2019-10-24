@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+main {
+    width: 50%;
+    min-width: 500px;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: darkred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    /* Sett inn tre bakgrunnsbilder*/
+    /* Sett inn background-position for alle 3 */
+    /* Sett på background-repeat for alle 3 */
+        
+}
+
+#alice {
+    width: 50%;
+}
