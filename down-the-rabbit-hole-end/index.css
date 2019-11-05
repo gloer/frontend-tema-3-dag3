@@ -13,28 +13,28 @@ main {
     align-items: center;
     justify-content: center;
 
-    background-image: 
-        url("./img/left.svg"),
+    background-image:
         url("./img/prikker.png"),
-        url("./img/right.svg");        
+        url("./img/left.svg"),
+        url("./img/right.svg"); 
 
     background-repeat:
-        repeat-y,
         repeat,
+        repeat-y,
         repeat-y;
 
     background-position: 
         left 0,
         left 0,
         right 0;
-    
+
     /* Sett inn tre bakgrunnsbilder*/
-    /* Sett inn background-position for alle 3 */
     /* Sett på background-repeat for alle 3 */
-    animation: tunnell 1s linear infinite;  
+    /* Sett inn background-position for alle 3 */
+    animation: tunnel 1s linear infinite;
 }
 
-@keyframes tunnell {
+@keyframes tunnel {
     to {
         background-position: 
             left -300px,
@@ -43,13 +43,13 @@ main {
     }
 }
 
+#alice {
+    width: 50%;
+    animation: snurr 3s linear infinite;
+}
+
 @keyframes snurr {
     to {
         transform: rotate(1turn);
     }
-}
-
-#alice {
-    width: 50%;
-    animation: snurr 3s infinite linear;
 }

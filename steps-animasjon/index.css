@@ -1,0 +1,10 @@
+body {
+    padding: 100px;
+}
+
+#firkant {
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+    border-top: 2px solid blue;
+}

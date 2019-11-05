@@ -34,18 +34,16 @@ main {
     overflow: hidden;
 }
 
-/*
 @keyframes run {
     to {
-        transform: translateY(-100%); 
+        transform: translateY(-100%);
     }
 }
-*/
 
 #run {
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;    
-    /* animation: run 1s infinite steps(7) reverse; */
+    width: 100%;  
+    animation: run 1s steps(7) infinite;  
 }
